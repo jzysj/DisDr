@@ -258,12 +258,12 @@ def main():
     parser.add_argument(
         "--response_csv",  
         type=str,
-        default="CCLE/data/CCLE/CCLE_response.csv",
+        default="data/CCLE/CCLE_response.csv",
     )
     parser.add_argument(
         "--rnaseq_csv",
         type=str,
-        default="CCLE/data/CCLE/CCLE_RNAseq.csv",
+        default="data/CCLE/CCLE_RNAseq.csv",
     )
     parser.add_argument(
         "--coord_npy",
