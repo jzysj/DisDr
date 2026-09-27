@@ -258,17 +258,25 @@ def main():
     parser.add_argument(
         "--response_csv",
         type=str,
-        default="/home/jzy/model/MolDr/CCLE/data/CCLE/CCLE_response.csv",
+        default=(
+            "data/GDSC1/GDSC1_response.csv"
+        ),
     )
+
     parser.add_argument(
         "--rnaseq_csv",
         type=str,
-        default="/home/jzy/model/MolDr/CCLE/data/CCLE/CCLE_RNAseq.csv",
+        default=(
+            "data/GDSC1/GDSC1_RNAseq.csv"
+        ),
     )
+
     parser.add_argument(
         "--coord_npy",
         type=str,
-        default="/home/jzy/model/MolDr/CCLE/drug_3d_coords_H_all.npy",
+        default=(
+            "drug_3d_coords_H_all.npy"
+        ),
     )
     parser.add_argument("--radii", default="2.0,2.5,3.0,3.5")
 
